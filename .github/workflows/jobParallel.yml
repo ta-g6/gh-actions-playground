@@ -1,15 +1,15 @@
 name: Job Parallel
 on: push
 jobs:
-  first:
+  build:
     runs-on: ubuntu-latest
     steps:
       - run: echo "build"
-  second:
+  test:
     runs-on: ubuntu-latest
     steps:
       - run: echo "test"
-  third:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - run: echo "deploy"
