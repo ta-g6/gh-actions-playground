@@ -4,7 +4,7 @@ jobs:
   first:
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 10 && echo "build
+      - run: sleep 10 && echo "build”
   second:
     runs-on: ubuntu-latest
     steps:
