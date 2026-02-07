@@ -4,12 +4,12 @@ jobs:
   first:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "build
+      - run: sleep 10 && echo "build
   second:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "test"
+      - run: sleep 10 && echo "test"
   third:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "deploy"
+      - run: sleep 10 && echo "deploy"
